@@ -25,6 +25,8 @@ gem 'jquery-rails'
 group :test do
   gem 'capybara'
   gem 'factory_girl_rails'
+  gem 'cucumber-rails'
+  gem 'database_cleaner'
 end
 
 group :production do
